@@ -1,11 +1,10 @@
 ﻿using BookingApp.Core.DataServices;
-using BookingApp.Core.DataServices.Domain;
 using BookingApp.Core.Enums;
 using BookingApp.Core.Models;
 using BookingApp.Core.Processors;
+using BookingApp.Domain;
 using Moq;
 using Shouldly;
-using System.Runtime.CompilerServices;
 
 namespace BookingApp.Core
 {

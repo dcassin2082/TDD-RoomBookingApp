@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BookingApp.Core.DataServices.Domain;
+﻿using BookingApp.Domain;
 
 namespace BookingApp.Core.DataServices
 {

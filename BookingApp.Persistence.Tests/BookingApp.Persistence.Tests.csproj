@@ -6,12 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="DataServices\Domain\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\BookingApp.Domain\BookingApp.Domain.csproj" />
-  </ItemGroup>
-
 </Project>

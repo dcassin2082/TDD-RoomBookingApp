@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookingApp.Core.Models
+namespace BookingApp.Domain.BaseModels
 {
     public abstract class BookingBase
     {

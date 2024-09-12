@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Core.Tests", "Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Core", "BookingApp.Core\BookingApp.Core.csproj", "{0001991C-2678-4748-BE22-F1465A266C4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Domain", "BookingApp.Domain\BookingApp.Domain.csproj", "{79524449-DF6C-45F6-A19E-62203385DF68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Persistence", "BookingApp.Persistence\BookingApp.Persistence.csproj", "{A4B5924A-0240-423B-9CB9-4D6ADA58182C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApp.Persistence.Tests", "BookinApp.Persistence.Tests\BookingApp.Persistence.Tests.csproj", "{EC4F4817-1160-4DC2-A43A-5EBE910656BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{0001991C-2678-4748-BE22-F1465A266C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0001991C-2678-4748-BE22-F1465A266C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0001991C-2678-4748-BE22-F1465A266C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79524449-DF6C-45F6-A19E-62203385DF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79524449-DF6C-45F6-A19E-62203385DF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79524449-DF6C-45F6-A19E-62203385DF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79524449-DF6C-45F6-A19E-62203385DF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B5924A-0240-423B-9CB9-4D6ADA58182C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B5924A-0240-423B-9CB9-4D6ADA58182C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B5924A-0240-423B-9CB9-4D6ADA58182C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B5924A-0240-423B-9CB9-4D6ADA58182C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4F4817-1160-4DC2-A43A-5EBE910656BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4F4817-1160-4DC2-A43A-5EBE910656BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4F4817-1160-4DC2-A43A-5EBE910656BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4F4817-1160-4DC2-A43A-5EBE910656BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

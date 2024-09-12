@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookingApp.Core.DataServices.Domain
+namespace BookingApp.Domain
 {
     public class Room
     {
         public int Id { get; set; }
+        public string Name { get; set; }
+        public List<Booking> RoomBookings { get; set; }
     }
 }

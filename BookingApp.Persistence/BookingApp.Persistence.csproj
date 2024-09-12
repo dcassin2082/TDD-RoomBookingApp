@@ -7,10 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DataServices\Domain\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BookingApp.Core\BookingApp.Core.csproj" />
     <ProjectReference Include="..\BookingApp.Domain\BookingApp.Domain.csproj" />
   </ItemGroup>
 

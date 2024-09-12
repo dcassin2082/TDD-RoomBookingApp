@@ -1,7 +1,8 @@
 ﻿using BookingApp.Core.DataServices;
-using BookingApp.Core.DataServices.Domain;
 using BookingApp.Core.Enums;
 using BookingApp.Core.Models;
+using BookingApp.Domain;
+using BookingApp.Domain.BaseModels;
 
 namespace BookingApp.Core.Processors
 {
